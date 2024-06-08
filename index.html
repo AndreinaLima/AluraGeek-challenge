@@ -35,15 +35,20 @@
       <section>
         <div class="formulario">
           <h1>ADICIONAR PRODUTOS:</h1>
-          <form class="form-container" data-formulario>
-            <input data-name type="text" placeholder="nome">
-            <input data-price type="text" placeholder="preço">
-            <input data-image type="text" placeholder="url-imagem">
-            <div class="btn-formulario-container">
-              <button type="submit" class="button-submit" id="button">Enviar</button>
-              <button type="reset" class="button-clean" id="button"><span>Limpar</span></button>
-            </div>
-          </form>
+         <form class="form-container" data-formulario>
+  <input data-name type="text" name="name" placeholder="nome" minlength="3" required>
+  <span class="mensagem-erro"></span>
+  <input data-price type="text" name="price" placeholder="preço/ex: 23,00" minlength="4" required>
+  <span class="mensagem-erro"></span>
+  <input data-image type="text" name="image" placeholder="url-imagem" pattern="https://.*" required>
+  <span class="mensagem-erro"></span>
+  <div class="btn-formulario-container">
+    <button type="submit" class="button-submit" id="button">Enviar</button>
+    <button type="reset" class="button-clean" id="button"><span>Limpar</span></button>
+  </div>
+</form>
+
+
         </div>
       </section>
     </div>
@@ -61,5 +66,6 @@
   </footer>
 
   <script src="/js/mostrarGames.js" type="module"></script>
+  <script src="/js/valida.js"></script>
 </body>
 </html>
