@@ -1,0 +1,40 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "nome": "Mario Classic",
+      "preco": "60,00",
+      "imagem": "https://down-br.img.susercontent.com/file/078408821cd90749aa1377aae35238d4"
+    },
+    {
+      "id": 2,
+      "nome": "Game Classic",
+      "preco": "60,00",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/686482/mini_game_retro_com_400_jogos_antigos_e_1_controle_lps_501_3403_1_53456dd48336383c0f9e3a0cdcd17dcd.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Mario Classic",
+      "preco": "60,00",
+      "imagem": "https://down-br.img.susercontent.com/file/078408821cd90749aa1377aae35238d4"
+    },
+    {
+      "id": 4,
+      "nome": "Game Classic",
+      "preco": "60,00",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/686482/mini_game_retro_com_400_jogos_antigos_e_1_controle_lps_501_3403_1_53456dd48336383c0f9e3a0cdcd17dcd.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Mario Classic",
+      "preco": "60,00",
+      "imagem": "https://down-br.img.susercontent.com/file/078408821cd90749aa1377aae35238d4"
+    },
+    {
+      "id": 6,
+      "nome": "Game Boy Classic",
+      "preco": "60,00",
+      "imagem": "https://down-br.img.susercontent.com/file/3ef82b03b10b1613a2d9d4c59bc72d30"
+    }
+  ]
+}
