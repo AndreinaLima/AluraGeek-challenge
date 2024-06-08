@@ -76,4 +76,10 @@ async function carregarGames() {
   }
 }
 
+function limparInputs() {
+  inputNome.value = ""
+  inputPreco.value = ""
+  inputImagem.value = ""
+}
+
 carregarGames()
